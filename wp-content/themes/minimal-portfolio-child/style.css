@@ -1,0 +1,69 @@
+/*
+ Theme Name:   Minimal Portfolio Child
+ Theme URI:    http://yukihigashidani.dk/minimal-portfolio-child/
+ Description:  Minimal Portfolio Child Theme
+ Author:       Yuki Higashidani
+ Author URI:   http://yukihigashidani.dk
+ Template:     minimal-portfolio
+ Version:      1.0.4
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  minimalportfoliochild
+*/
+
+/* body baggrundsfarve */
+
+#page {
+    background: #FFFAF5;
+}
+
+/* navbar */
+
+#masthead .header-menu {
+    background-color: #FFFAF5;
+}
+
+#primary-menu a {
+    font-family: Helvetica, Sans-Serif;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+#site-navigation {
+    z-index:1;
+}
+
+/* overskrifter */
+
+h1 {
+    font-family: 'Source Serif Pro', serif;
+    font-size: x-large;
+}
+
+/* forside */
+
+.elementor-51 {
+    margin-bottom: -95px;
+}
+
+#colophon .footer-bottom {
+    background: #E7E2D6;
+    
+}
+.footer-top {
+    padding-top: 50px;
+	border-top: 1px solid #E7E2D6;
+	padding-bottom: 30px;
+}
+
+/* navbar undersider */
+
+.page-id-11 #masthead, .page-id-248 #masthead, .page-id-236 #masthead, .page-id-245 #masthead, .page-id-251 #masthead, .page-id-254 #masthead, .page-id-256 #masthead {
+    display: none;
+}
+
+
